@@ -11,10 +11,6 @@ function newItem() {
     $("#input").val("");
   }
 
-  function crossOut() {
-    li.toggleClass("strike");
-  }
-
   li.on("dblclick", function crossOut() {
     li.toggleClass("strike");
   });
